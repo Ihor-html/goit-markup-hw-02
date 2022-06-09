@@ -1,0 +1,43 @@
+/* primary font color 
+#757575 */
+/* secondary font color #212121 */
+/* primary backgroung color 
+#FFFFFF */
+/* secondary backgroung color #F5F4FA */
+/* actionable item #2196F3 */
+.page{
+background-color:#FFFFFF ;
+color:#757575;}
+.web{
+color: 
+#2196F3;
+} 
+.studio{
+color: #000000
+;
+}
+.list{
+    list-style: none;
+}
+/* site-nav */
+.site-nav .link {
+    color: #212121
+    ;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+/* hero title */
+.hero-title{
+    color:tomato;
+    font-size: 44px;
+}
+/* section-title */
+.section-title{
+    color: #212121;
+}
+/* features */
+.feature-list .title{
+    color:#212121 ;
+}
