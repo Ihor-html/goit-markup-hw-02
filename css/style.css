@@ -130,8 +130,7 @@ width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-background: #2F303A;
-background-image: url(https://github.com/Ihor-html/goit-markup-hw-02/blob/main/image/banner-photo.png);
+background-image: url('../image/banner-photo.png');
 }
 .hero-title{
 font-family: 'Roboto';
@@ -169,7 +168,10 @@ left: 700px;
 top: 430px;
 margin-top: -95px;
 border: none;
+cursor: pointer;
 }
+
+
 
 
 /* section-title */
@@ -341,6 +343,12 @@ color: #757575;
 }
 
 /* PORTFOLIO */
+.portfolio-body{
+width: 1600px;
+height: 1880px;
+
+background: #FFFFFF;
+}
 .footer-portfolio{
     margin-top: -394px;
     position: absolute;
