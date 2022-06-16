@@ -131,6 +131,7 @@ height: 600px;
 left: 0px;
 top: 80px;
 background: #2F303A;
+background-image: url(https://github.com/Ihor-html/goit-markup-hw-02/blob/main/image/banner-photo.png);
 }
 .hero-title{
 font-family: 'Roboto';
@@ -270,10 +271,7 @@ left: 215px;
 top: 774px;  
 margin: 0px; 
 }
-.feature-list-container{
 
-
-}
 /* our team */
 .section-title-team{
 font-family: 'Roboto';
@@ -338,19 +336,28 @@ color: #757575;
     height: 252px;
     left: 0px;
     top: 2097px;
+    background: #2F303A; 
+    
+}
+
+/* PORTFOLIO */
+.footer-portfolio{
+    margin-top: -394px;
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
     background: #2F303A;  
 }
-/* PORTFOLIO */
 .buttons{
-    position: absolute;
-width: 611px;
-height: 54px;
-left: 495px;
-top: 174px;
-    display: flex;
-    list-style: none;
+display: block;
+display: flex;
+list-style: none;
 margin: 0px;
-padding-top: -94px;
+margin: 95px 495px 50px 495px;
+padding-inline-start: 0;
+justify-content: space-between;
 }
 .button-position{
 padding-inline-end: 8px;    
@@ -360,10 +367,10 @@ background-color: #2196F3;
 color: #FFFFFF;
 }
 .button-style{
-    background: #F5F4FA;
-    border-radius: 4px;
-    padding-inline-end: 8px;
-    font-family: 'Roboto';
+background: #F5F4FA;
+border-radius: 4px;
+padding-inline-end: 8px;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -376,15 +383,20 @@ color: #212121;
 white-space: nowrap;
 }
 .main-content{
-    display: flex;
+display: flex;
 flex-wrap: wrap;
+padding-left: 185px;
 }
 .content-item{
-width: 30%;
+width: 370px;
 height: 404px;
-left: 215px;
-top: 262px;
 list-style: none;
+margin-inline-end: 30px;
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+padding: 0px;
+margin-bottom: 30px;
 }
 .portfolio-footer{
 position: absolute;
@@ -411,9 +423,7 @@ left: 215px;
 top: 174px;
 
 }
-.footer{
 
-}
 .footer-nav{
 list-style: none;
 text-decoration: none;
@@ -484,4 +494,29 @@ color: #FFFFFF;
     top: 2208px;
     display: block;
     padding: 0;
+}
+.portfolio-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+padding-left: 24px;
+color: #212121;
+margin-bottom: 0px;
+margin-top: 20px;
+}
+.portfolio-paragraph{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+padding-left: 24px;
+padding-bottom: -20px;
+margin-top: 4px;
+margin-bottom: 20px;
 }
