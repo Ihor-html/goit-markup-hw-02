@@ -240,7 +240,20 @@ margin-top:-94px;
     padding-top: 94px;
     padding-bottom: 50px;
     color: #212121;
-
+}
+.hide-section-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    color: #212121;
+    overflow: hidden;  
 }
 .personal-box{
     background: #FFFFFF;
